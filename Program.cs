@@ -10,7 +10,7 @@ namespace HW_4_WK_4
     {
         static void Main(string[] args)
         {
-            Astrick();
+            Astrick(); // Calling the method
         }
 
         static void Astrick()
@@ -21,8 +21,8 @@ namespace HW_4_WK_4
             int counter = 0;
             
 
-            Console.WriteLine("Input Number of stars: ");
-            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Input Number of stars: "); // Ask the user to input number 
+            int a = Convert.ToInt32(Console.ReadLine());  // 
             Console.WriteLine();
 
             while (index <= a)
@@ -33,7 +33,6 @@ namespace HW_4_WK_4
                     {
                         Console.Write(star);
                         counter++;
-                        
                     }
                 }
             }
