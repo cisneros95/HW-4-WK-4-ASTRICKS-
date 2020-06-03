@@ -27,13 +27,12 @@ namespace HW_4_WK_4
 
             while (index <= a)
             {
-                if(index % 2 != 0)
+                while (counter <= a)
                 {
-                    while (counter <= a)
-                    {
-                        Console.Write(star);
-                        counter++;
-                    }
+                    Console.Write(star);
+                    counter++;
+                    return;
+
                 }
             }
         }
